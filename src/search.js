@@ -84,7 +84,7 @@ $(document).ready(function(){
 	// $.get() => jQuery => GET request to the specified URL. 
 	// 1st argument is the URL to which the request is made 
 	// 2nd argument is a callback function that will be executed once the request is successful
-	$.get("https://raw.githubusercontent.com/veduKaGit/auto-trie-only-txt/main/words.txt",function(data){
+	$.get("https://raw.githubusercontent.com/divs14/TRIE_project/main/src/words.txt",function(data){
 		var input = data.split("\n") ;
 		insertTrie(input) ;  //insert words into trie
 	});
